@@ -47,7 +47,7 @@ header {
 .off-section {
     text-align: center;
     margin: 120px 140px 0px;
-   
+
 }
 
 .off {
@@ -230,7 +230,7 @@ header {
     font-weight: 900;
     text-transform: capitalize;
     margin-top: 10px;
- 
+
 }
 
 .dolor2 {
@@ -241,12 +241,12 @@ header {
     line-height: 32px;
     max-width: 393px;
     padding-right: 0px;
-  
+
 
 }
 
 .fig {
-    width: 364.844px; 
+    width: 364.844px;
     height: 364.844px;
     padding: 50px;
 }
@@ -283,7 +283,7 @@ header {
     line-height: 32px;
     max-width: 276px;
     margin-top: 20px;
-    }
+}
 
 .fig2 {
     width: 140px;
@@ -292,3 +292,90 @@ header {
     margin-bottom: 0px;
 
 }
+
+/* banner4 */
+.banner4 {
+    background: #95dfe1;
+    width: 1320px;
+    height: 1000px;
+    margin: 120px 140px 0px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+#function {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.holi {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sale {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+
+.sit {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    max-width: 1068px;
+    padding: 0px 120px 0px;
+    margin-top: 0px;
+}
+
+/* image3 add */
+/* .image3 {
+    display: flex;
+} */
+
+.fig4 {
+    background-image: url("../resources/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+   background-size: 429px, 433px;
+background-position: right;
+}
+.rec2 {
+    width: 310px;
+    height: 310px;
+    padding-top: 100px;
+    padding-left: 470px;
+    padding-bottom: 100px;
+    margin-top: 64px;
+}
+
+.fig3{
+    background-image: url("../resources/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-size: 1320px, 220px;
+    background-position: bottom;
+}
+.rec1 {
+    width: 500px;
+    height: 500px;
+    margin-top: 0px;
+    padding-right: 570px;
+    padding-top: 64px;
+}
+
