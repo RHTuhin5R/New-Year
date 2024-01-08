@@ -297,10 +297,13 @@ header {
 .banner4 {
     background: #95dfe1;
     width: 1320px;
-    height: 1000px;
+    height: 950px;
     margin: 120px 140px 0px;
     border-radius: 16px;
     text-align: center;
+    background: url("../resources/Rectangle\ 2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 #function {
@@ -346,36 +349,98 @@ header {
 }
 
 /* image3 add */
-/* .image3 {
-    display: flex;
-} */
-
-.fig4 {
+.insert-image {
     background-image: url("../resources/Rectangle\ 1.png");
     background-repeat: no-repeat;
-   background-size: 429px, 433px;
-background-position: right;
+    background-position: top right;
+    margin-top: 35px;
 }
+
+.image3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .rec2 {
-    width: 310px;
-    height: 310px;
+    width: 250px;
+    height: 250px;
     padding-top: 100px;
-    padding-left: 470px;
-    padding-bottom: 100px;
-    margin-top: 64px;
+    padding-right: 308px;
+    fill: #F00;
+
 }
 
-.fig3{
-    background-image: url("../resources/Rectangle\ 2.png");
-    background-repeat: no-repeat;
-    background-size: 1320px, 220px;
-    background-position: bottom;
-}
 .rec1 {
-    width: 500px;
-    height: 500px;
-    margin-top: 0px;
-    padding-right: 570px;
-    padding-top: 64px;
+    width: 700px;
+    height: 600px;
+    margin-top: 50px;
+    padding-left: 70px;
+    /* padding-top: 64px; */
 }
 
+/* banner5 */
+.banner5 {
+    margin: 120px 140px 0px;
+    width: 1320px;
+    height: 1123.5px;
+    background: #FFF;
+    border-radius: 16px;
+}
+
+#gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+
+
+}
+
+#awesome {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.dolar5 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 896px;
+    margin-top: 22px;
+    margin-bottom: 0px;
+
+
+}
+
+/* all img */
+.all-img {
+    margin-top: 48px;
+}
+
+.image4 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.image5 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.img1 {
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+}
