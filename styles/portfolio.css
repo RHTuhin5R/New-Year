@@ -8,7 +8,7 @@ body {
 header {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
     width: 1320px;
-    height: 600px;
+    min-height: 600px;
     border-radius: 16px;
     margin: 50px 140px 0px;
 }
@@ -49,7 +49,7 @@ header {
     margin: 120px 140px 0px;
     background: #FFF;
     width: 1320px;
-    height: 830px;
+    min-height: 830px;
     border-radius: 16px;
 
 }
@@ -85,7 +85,7 @@ header {
 
 .image1 {
     width: 802.9px;
-    height: 500px;
+    min-height: 500px;
     margin-top: 0px;
 
 }
@@ -97,7 +97,7 @@ header {
     display: flex;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
     width: 1320px;
-    height: 600px;
+    min-height: 600px;
     background-repeat: no-repeat;
     border-radius: 16px;
 }
@@ -126,7 +126,7 @@ header {
 .image2 {
     display: flex;
     width: 319.83px;
-    height: 464.662px;
+    min-height: 464.662px;
     padding: 70px 126px 70px 126px;
     flex-direction: column;
     justify-content: center;
@@ -153,7 +153,7 @@ header {
 
 .all-info {
     width: 1320px;
-    height: 482px;
+    min-height: 482px;
     flex-shrink: 0;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
@@ -211,7 +211,7 @@ header {
     margin: 120px 140px 0px;
     background: #FFF;
     width: 1320px;
-    height: 482px;
+    min-height: 482px;
     border-radius: 16px;
 }
 
@@ -251,14 +251,14 @@ header {
 
 .fig {
     width: 364.844px;
-    height: 364.844px;
+    min-height: 364.844px;
     padding: 50px;
 }
 
 .second {
     text-align: center;
     width: 463px;
-    height: 463px;
+    min-height: 463px;
     border-radius: 463px;
     border: 15px solid #F00;
     margin-left: 50px;
@@ -291,7 +291,7 @@ header {
 
 .fig2 {
     width: 140px;
-    height: 140px;
+    min-height: 140px;
     margin-top: 51px;
     margin-bottom: 0px;
 
@@ -301,7 +301,7 @@ header {
 .banner4 {
     background: #95dfe1;
     width: 1320px;
-    height: 950px;
+    min-height: 950px;
     margin: 120px 140px 0px;
     border-radius: 16px;
     text-align: center;
@@ -335,7 +335,6 @@ header {
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
     margin-top: 0px;
     margin-bottom: 28px;
 }
@@ -368,7 +367,7 @@ header {
 
 .rec2 {
     width: 250px;
-    height: 250px;
+    min-height: 250px;
     padding-top: 100px;
     padding-right: 308px;
     fill: #F00;
@@ -377,7 +376,7 @@ header {
 
 .rec1 {
     width: 700px;
-    height: 600px;
+    min-height: 600px;
     margin-top: 50px;
     padding-left: 70px;
     /* padding-top: 64px; */
@@ -387,7 +386,7 @@ header {
 .banner5 {
     margin: 120px 140px 0px;
     width: 1320px;
-    height: 1123.5px;
+    min-height: 1123.5px;
     background: #FFF;
     border-radius: 16px;
 }
@@ -445,7 +444,7 @@ header {
 
 .img1 {
     width: 424px;
-    height: 450px;
+    min-height: 450px;
     transition: 0.8s;
 }
 
@@ -456,7 +455,7 @@ header {
 /* banner6 */
 .banner6 {
     width: 1320px;
-    height: 616px;
+    min-height: 616px;
     flex-shrink: 0;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
@@ -467,7 +466,7 @@ header {
 .grp61 {
     margin-top: 80px;
     width: 150px;
-    height: 150px;
+    min-height: 150px;
     margin-bottom: 0px;
 }
 
@@ -499,7 +498,7 @@ header {
 
 .email {
     width: 500px;
-    height: 75px;
+    min-height: 75px;
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
     color: rgba(7, 2, 17, 0.30);
@@ -513,7 +512,7 @@ header {
 
 .button {
     width: 210px;
-    height: 75px;
+    min-height: 75px;
     flex-shrink: 0;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
@@ -527,6 +526,82 @@ header {
 }
 
 /* footer section */
-footer{
+.footer-point {
+    margin-top: 120px;
+    width: 1600px;
+    height: 609px;
     background: black;
+    padding-top: 120px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.beach {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.png {
+    width: 24px;
+    height: 24px;
+    padding-right: 5px;
+}
+
+.call-con {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+
+.website {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 0px;
+}
+
+.hline {
+    margin-top: 50px;
+    width: 1140px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.social {
+    display: flex;
+    margin-top: 48px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.lastpast {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.right {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.uns {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
