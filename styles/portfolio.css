@@ -47,6 +47,10 @@ header {
 .off-section {
     text-align: center;
     margin: 120px 140px 0px;
+    background: #FFF;
+    width: 1320px;
+    height: 830px;
+    border-radius: 16px;
 
 }
 
@@ -487,14 +491,16 @@ header {
     margin-bottom: 0px;
 }
 
-.input1 {
+.input-section {
+    display: flex;
     margin-top: 48px;
+    margin-left: 290px;
 }
 
 .email {
     width: 500px;
     height: 75px;
-    border-radius: 50px 0px 0px 50px ;
+    border-radius: 50px 0px 0px 50px;
     background: #FFF;
     color: rgba(7, 2, 17, 0.30);
     text-align: center;
