@@ -525,3 +525,8 @@ header {
     text-transform: capitalize;
     border: 0px;
 }
+
+/* footer section */
+footer{
+    background: black;
+}
